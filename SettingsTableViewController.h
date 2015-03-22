@@ -1,6 +1,5 @@
 //
 //  SettingsTableViewController.h
-//  Cochlear App
 //
 //  Created by Gilles Lesire on 16/07/14.
 //  GNU General Public License (GPL)
