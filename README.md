@@ -1,4 +1,4 @@
-# iOS-InApp-Settings-TableView from Settings bundle
+# iOS InApp Settings TableView from Settings bundle
 I wanted to create a <b>TableView</b> which is automatically generated from the <b>Settings.bundle</b>. There used to be a framework InAppSettings but this isn't working with iOS 7 and up. So I decided to write my own code to achieve this.
 
 It supports the setting types <b>Title</b>, <b>Group</b>, <b>Text <b>Field</b>, <b>Multi Value</b> and <b>Toggle Switch</b>.
