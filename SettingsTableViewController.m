@@ -3,7 +3,8 @@
 //
 //  Created by Gilles Lesire on 16/07/14.
 //  GNU General Public License (GPL)
-////
+//  https://github.com/KingIsulgard/iOS-InApp-Settings-TableView
+//
 
 #import "SettingsTableViewController.h"
 
