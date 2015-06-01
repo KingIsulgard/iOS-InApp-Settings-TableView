@@ -1,6 +1,8 @@
 # iOS InApp Settings TableView from Settings bundle
 I wanted to create a <b>TableView</b> which is automatically generated from the <b>Settings.bundle</b>. There used to be a framework InAppSettings but this isn't working with iOS 7 and up. So I decided to write my own code to achieve this.
 
+This framework will generate a TableView with your settings data exactly like in the Settings tab generated in your Preferences app.
+
 ## Overview
 * [Features](#features)
 * [Implementation](#implementation)
