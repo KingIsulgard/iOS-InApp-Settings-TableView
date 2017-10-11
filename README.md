@@ -13,7 +13,7 @@ This framework will generate a TableView with your settings data exactly like in
 ## Features
 - It supports the setting types <b>Title</b>, <b>Group</b>, <b>Text <b>Field</b>, <b>Multi Value</b> and <b>Toggle Switch</b>.
 - It does NOT SUPPORT <b>Slider</b>.
-- This solution does support portrait AND landscape mode and can also handle changing over device orientations.
+- This solution supports portrait AND landscape mode and can also handle changing over device orientations.
 
 ## Implementation
 First off all I'm assuming that you are using the following code to read out your default values from the Settings.bundle.
