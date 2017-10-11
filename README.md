@@ -11,21 +11,21 @@ This framework will generate a TableView with your settings data exactly like in
 * [Warranty](#warranty)
 
 ## Features
-- It supports the setting types <b>Title</b>, <b>Group</b>, <b>Text <b>Field</b>, <b>Multi Value</b> and <b>Toggle Switch</b>.
-- It does NOT SUPPORT <b>Slider</b>.
-- This solution supports portrait AND landscape mode and can also handle changing over device orientations.
+- It supports the setting types *Title*, *Group*, *Text Field*, *Multi Value* and *Toggle Switch*.
+- It does NOT SUPPORT *Slider*.
+- This solution supports *portrait* AND *landscape* mode and can also handle *changing device orientations*.
 
 ## Implementation
 First off all I'm assuming that you are using the following code to read out your default values from the Settings.bundle.
 https://github.com/KingIsulgard/iOS-InApp-Settings-TableView/blob/master/registerSettingsFromBundle.m
 
-It's best to call this function in your <b>AppDelegate</b> in the function <b>applicationWillEnterForeground</b>. 
+It's best to call this function in your **AppDelegate** in the function **applicationWillEnterForeground**. 
 
-You will need to include the 2 classes <b>SettingsTableViewController</b> and <b>MultiValueTableViewController</b> in your project (both .h and .m files of course), which can also be found in this folder.
+You will need to include the 2 classes **SettingsTableViewController** and **MultiValueTableViewController** in your project (both .h and .m files of course), which can also be found in this folder.
 
-<b>Storyboard</b> Now go the storyboard and create a <b>TableViewController</b>. Select the TableViewController and Choose "<b>Editor</b>" -> "<b>Embed in</b>" -> "<b>Navigation controller</b>".
+**Storyboard** Now go the storyboard and create a **TableViewController**. Select the TableViewController and Choose **Editor** -> **Embed in** -> **Navigation controller**.
 
-Set the class of the TableViewController as <b>SettingsTableViewController</b>. Set the identifier of the cell as "Cell", add a second TableViewCell to the TableView and set it's identifier as "<b>MultiValueCell</b>". Add a second TableViewController, and CTRL+CLICK and drag from the MultiValueCell to the second TableViewController. Set the class of the second TableViewController as <b>MultiValueTableViewController</b>. Set the identifier of the cell in the second TableViewController as "<b>Cell</b>" too. That's it!
+Set the class of the TableViewController as **SettingsTableViewController**. Set the identifier of the cell as "*Cell*", add a second TableViewCell to the TableView and set it's identifier as "*MultiValueCell*". Add a second TableViewController, and CTRL+CLICK and drag from the MultiValueCell to the second TableViewController. Set the class of the second TableViewController as **MultiValueTableViewController**. Set the identifier of the cell in the second TableViewController as "*Cell*" too. That's it!
 
 ## Donate
 You can support [contributors](https://github.com/KingIsulgard/iOS-InApp-Settings-TableView/graphs/contributors) of this project individually. Every contributor is welcomed to add his/her line below with any content. Ordering shall be alphabetically by GitHub username.
